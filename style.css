@@ -1,0 +1,164 @@
+body {
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+
+}
+
+div {
+    display: block;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* HEADER */
+
+header {
+    position: fixed;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid Seashell;
+    z-index: 1;
+    background-color: black;
+
+
+}
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+nav {
+    display: block;
+    flex-grow: 1;
+    text-align: right;
+}
+
+span a {
+    color: seashell;
+    padding: 10px 20px;
+
+}
+
+/* CONTENT */
+
+.content {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.our_mission {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+#mission {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    width: 1200px;
+    height: 700px;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.tea_of_the_month {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+
+#tom {
+  width: 1000px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+#tea_box {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+#tea_box img {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-wrap: flex;
+}
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin-top: 50px;
+}
+
+#locations  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.locations_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location_box {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  margin: 0px 20px;
+}
+
+.location_box h4 {
+  font-weight: 100;
+  padding: 20px 0px;
+}
+
+.location_spread {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.contact h5 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.copyright h5 {
+  display: flex;
+}
